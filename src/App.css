@@ -1,5 +1,5 @@
 .middle{
-  background-image: url(bh_bg.png);
+  background-image: url(../public/bh_bg.png);
   width: auto;
   height: 800px;
   display: flex;
