@@ -1,0 +1,15 @@
+.middle{
+  background-image: url(../../blackhole/public/bh_bg.png);
+  width: auto;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.middle-image{
+ 
+}
