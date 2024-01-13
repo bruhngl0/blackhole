@@ -3,6 +3,7 @@
   width: auto;
   height: 800px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -11,6 +12,15 @@
 
 }
 
-.middle-image{
- 
+.logo{
+  width: auto;
+  height: 350px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  >img{
+    width: 200px;
+  }
 }
