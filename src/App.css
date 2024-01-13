@@ -1,12 +1,13 @@
 .middle{
   background-image: url(bh_bg.png);
   width: auto;
-  height: 750px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-position: center;
+  overflow-y: hidden;
 
 }
 
