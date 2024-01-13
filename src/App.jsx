@@ -8,7 +8,7 @@ function App() {
     <>
     <div className='middle'>
        <div className='para-one'>
-         <p>look book</p>
+         <p className='para-one-text'>. LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION</p>
        </div>
 
        <div className='logo'>
@@ -16,7 +16,7 @@ function App() {
        </div>
 
        <div className='para-two'>
-          <p>web shop</p>
+          <p className='para-one-text'>. WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION</p>
        </div>
     </div>
     </>

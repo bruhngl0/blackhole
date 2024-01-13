@@ -1,4 +1,14 @@
 
+
+@font-face {
+  font-family: 'graffiti';
+  src: url('../public/Linebeam.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
+
 body {
   margin: 0;
 }
