@@ -70,13 +70,15 @@
 
 @keyframes slideRightToLeft {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   100% {
     transform: translateX(-100%);
   }
 }
 
+
 .para-one-text{
-  animation: slideRightToLeft 100s linear infinite;
+  animation: slideRightToLeft 200s infinite linear;
+  animation-delay: 0s;
 }
