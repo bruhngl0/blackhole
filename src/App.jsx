@@ -19,7 +19,7 @@ function App() {
           <p className='para-one-text'>. WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION</p>
        </div>
 
-       <img src= "ball1.png"  className='ball1'/>
+       <img src= "ball1.png"  className='ball1' alt="ball"/>
        <img src= "ball2.png"  className='ball2'/>
        
     </div>
