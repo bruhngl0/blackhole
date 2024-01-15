@@ -99,7 +99,7 @@
   width: 100px;
   height: 100px;
   position: fixed;
-  top: 200px; /* Adjust the distance from the bottom as needed */
+  top: 100px; /* Adjust the distance from the bottom as needed */
   left: 75px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveDownOne 7s linear infinite;
