@@ -17,7 +17,7 @@ const Landing = () => {
        </div>
 
 
-       <Link to= "/main" className='link' >
+       <Link to= "/products" className='link' >
        <div className='para-two'>
         
           <p className='para-one-text'>. WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION</p>
