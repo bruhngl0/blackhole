@@ -37,7 +37,9 @@
   background-size: cover;
   background-position: center;
   overflow-y: hidden;
+  overflow-x: hidden;
   font-family: dd;
+
 
 }
 
@@ -62,6 +64,7 @@
   height: 350px;
  
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -89,6 +92,21 @@
 .link{
   text-decoration: none;
 }
+
+.digital-watch {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color:#FC1517;
+}
+
+.digital-watch-one {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #FCECD0;
+}
+
 
 
 

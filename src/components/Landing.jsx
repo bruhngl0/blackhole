@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
+import DigitalWatch from './DigitalWatch'
+
 const Landing = () => {
   return (
     <>
@@ -11,9 +13,10 @@ const Landing = () => {
 
        <div className='logo'>
          <img src="blackhole.png"  className='logo-img'/>
+         <DigitalWatch />
        </div>
 
-       
+
        <Link to= "/main" className='link' >
        <div className='para-two'>
         
