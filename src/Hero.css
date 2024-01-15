@@ -1,0 +1,31 @@
+.hero{
+    background-image: url("../public/BG1.png");
+    width: auto;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: dd;
+    
+  
+}
+
+
+.hero-one{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    >img{
+        width: 180px;
+        height: 180px;
+    }
+}
