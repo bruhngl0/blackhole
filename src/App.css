@@ -29,7 +29,7 @@
 .middle{
   background-image: url(../public/bh_bg.png);
   width: auto;
-  height: 750px;
+  height: 715px;
   display: flex;
   flex-direction: column;
   justify-content: center;
