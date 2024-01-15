@@ -86,23 +86,53 @@
 
 
 .ball1 {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   position: fixed;
-  bottom: 70px; /* Adjust the distance from the bottom as needed */
+  bottom: 150px; /* Adjust the distance from the bottom as needed */
   right: 50px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveUp 5s infinite linear;
+  animation: moveUp 5s linear infinite;
 }
 
 .ball2 {
   width: 100px;
   height: 100px;
   position: fixed;
-  top: 150px; /* Adjust the distance from the bottom as needed */
-  left: 25px; /* Adjust the distance from the right as needed */
+  top: 200px; /* Adjust the distance from the bottom as needed */
+  left: 75px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveDown 5s infinite linear;
+  animation: moveDownOne 7s linear infinite;
+}
+
+.ball3 {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 270px; /* Adjust the distance from the bottom as needed */
+  left: 50px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure the icon appears above other elements */
+  animation: moveDownOne 4s linear infinite;
+}
+
+.ball4 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 50px; /* Adjust the distance from the bottom as needed */
+  right: 105px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure the icon appears above other elements */
+  animation: moveDown 12s linear infinite;
+}
+
+.ball5 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 380px; /* Adjust the distance from the bottom as needed */
+  right: 65px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure the icon appears above other elements */
+  animation: moveUp 8s linear infinite;
 }
 
 @keyframes moveUp {
@@ -110,7 +140,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-400px); /* Adjust the distance you want it to move up */
+    transform: translateY(-50px); /* Adjust the distance you want it to move up */
   }
   100% {
     transform: translateY(0);
@@ -123,6 +153,30 @@
   }
   50% {
     transform: translateY(100px); /* Adjust the distance you want it to move down */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveDownOne {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px); /* Adjust the distance you want it to move down */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveUpOne {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Adjust the distance you want it to move up */
   }
   100% {
     transform: translateY(0);
