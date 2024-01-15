@@ -71,6 +71,7 @@
   >img{
     width: 200px;
     padding-top: 30px;
+    z-index: 700;
   }
 }
 
@@ -138,12 +139,12 @@
 }
 
 .ball2 {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: fixed;
   top: 170px; /* Adjust the distance from the bottom as needed */
   left: 75px; /* Adjust the distance from the right as needed */
-  z-index: 999; /* Ensure the icon appears above other elements */
+  z-index: 459; /* Ensure the icon appears above other elements */
   animation: moveDownOne 7s linear infinite;
 }
 
