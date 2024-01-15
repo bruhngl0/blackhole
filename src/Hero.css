@@ -23,7 +23,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
+    margin-top: 12rem;
+    >img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.hero-two{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   margin-top: 3rem;
     >img{
         width: 180px;
         height: 180px;

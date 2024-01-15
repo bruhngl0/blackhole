@@ -6,9 +6,13 @@ const Hero = () => {
     <div className='hero'>
      <div className='hero-one'>
        <img src="wh.png" />
-       <img src="bh.png" />
+       <img src="bkhood.png" />
      </div>
-
+     
+     <div className='hero-two'>
+       <img src="wh.png" />
+       <img src="bkhood.png" />
+     </div>
     
      
      
