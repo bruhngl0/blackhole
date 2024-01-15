@@ -89,7 +89,7 @@
   width: 100px;
   height: 100px;
   position: fixed;
-  bottom: 50px; /* Adjust the distance from the bottom as needed */
+  bottom: 100px; /* Adjust the distance from the bottom as needed */
   right: 50px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveUp 5s linear infinite;
@@ -130,7 +130,7 @@
   height: 40px;
   position: fixed;
   top: 350px; /* Adjust the distance from the bottom as needed */
-  right: 0px; /* Adjust the distance from the right as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveUp 8s linear infinite;
 }
