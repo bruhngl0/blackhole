@@ -1,33 +1,20 @@
+import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Hero from './components/Hero';
+import Landing from './components/Landing';
 
-import './App.css'
-
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-    <div className='middle'>
-       <div className='para-one'>
-         <p className='para-one-text'>. LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION . LOOKBOOK . 2024 WINTER FALL COLLECTION</p>
-       </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/main" element={<Hero />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
-       <div className='logo'>
-         <img src="blackhole.png"  className='logo-img'/>
-       </div>
+export default App;
 
-       <div className='para-two'>
-          <p className='para-one-text'>. WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION . WEB SHOP . 2024 WINTER FALL COLLECTION WEB SHOP . 2024 WINTER FALL COLLECTION</p>
-       </div>
-
-       <img src= "ball1.png"  className='ball1' alt="ball"/>
-       <img src= "ball2.png"  className='ball2'/>
-       <img src= "ball3.png"  className='ball3'/>
-       <img src= "ball1.png"  className='ball4'/>
-       <img src= "ball2.png"  className='ball5'/>
-       
-    </div>
-    </>
-  )
-}
-
-export default App
