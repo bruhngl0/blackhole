@@ -3,12 +3,8 @@
 
 @font-face {
   font-family: 'ds';
-  src: url('../public/DS-DIGI.TTF') format('truetype'),
-       url('../public/DS-DIGIB.TTF') format('truetype'),
-       url('../public/DS-DIGII.TTF') format('truetype'),
-       url('../public/DS-DIGIT.TTF') format('truetype');
-  font-weight: 800;
-  font-style: normal;
+  src: url('../public/new.ttf') format('truetype'),
+      
 }
 
 
