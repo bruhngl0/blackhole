@@ -155,7 +155,7 @@
     transition: opacity 0.3s ease; /* Smooth transition for text opacity */
     color: white; /* Adjust text color as needed */
     text-align: center;
-    width: 100px;
+    width: 120px;
   }
   
   .hero-two .image-container:hover img {
