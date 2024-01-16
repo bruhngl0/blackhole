@@ -138,7 +138,7 @@
 
 .para-one-text{
   animation: slideRightToLeft 200s infinite linear;
-
+  font-family:DS-Digital Normal ;
  
 }
 
@@ -250,6 +250,14 @@
     -webkit-transform-style: preserve-3d; /* Preserve 3D transformations */
     will-change: transform; /* Hint to the browser that the element will change */
     -webkit-transform: translate3d(0, 0, 0);
+    font-family:  monospace;
     
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Chrome-specific styles */
+  .para-one-text {
+    font-family: DS-Digital Normal;
   }
 }
