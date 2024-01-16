@@ -243,5 +243,6 @@
     -webkit-perspective: 1000; /* Improve 3D rendering performance */
     -webkit-transform-style: preserve-3d; /* Preserve 3D transformations */
     will-change: transform; /* Hint to the browser that the element will change */
+    -webkit-transform: translate3d(0, 0, 0);
   }
 }
