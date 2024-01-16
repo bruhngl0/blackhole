@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'ds-digitalnormal';
-  src: url('fontsfree-net-ds-digi-1-webfont.woff2') format('woff2'),
-       url('fontsfree-net-ds-digi-1-webfont.woff') format('woff');
+  src: url('../public/fontsfree-net-ds-digi-1-webfont.woff') format('woff2'),
+       url('../public/fontsfree-net-ds-digi-1-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 
