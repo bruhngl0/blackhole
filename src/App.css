@@ -111,6 +111,8 @@
 .para-one-text{
   animation: slideRightToLeft 200s infinite linear;
   animation-delay: 0s;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 
@@ -210,5 +212,15 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+/* Safari-specific styles */
+@supports (-webkit-appearance:none) {
+  .para-one-text{
+    -webkit-transform: translateZ(0); /* Force software rendering */
+    -webkit-backface-visibility: hidden; /* Prevent flickering during animations */
+    -webkit-perspective: 1000; /* Improve 3D rendering performance */
+    -webkit-transform-style: preserve-3d; /* Preserve 3D transformations */
+    will-change: transform; /* Hint to the browser that the element will change */
   }
 }
