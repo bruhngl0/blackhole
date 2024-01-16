@@ -17,14 +17,20 @@ const Hero = () => {
      </div>
      
      <div className='hero-two'>
+     <div className="image-container">
        <img src="./products/Puff2.png" />
+       <p className="hover-text">Midnight Quilted Bomber</p>
+       </div>
+       <div className="image-container">
        <img src="./products/Puff1.png" />
+       <p className="hover-text">Desert Quilted Bomber</p>
+       </div>
      </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
-      <img src="./products/Puff3.png" />
+       <img src="./products/Puff3.png" />
        <img src="./products/VEST3.png" />
       </div>
 
