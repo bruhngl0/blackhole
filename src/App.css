@@ -3,7 +3,8 @@
 
 @font-face {
   font-family: 'ds';
-  src: url('../public/new.ttf') format('truetype');
+  src:   url('../public/newone.ttf') format('woff2');
+   
   font-weight: 1 1000;    
 }
 
