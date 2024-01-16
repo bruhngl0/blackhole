@@ -140,6 +140,7 @@
   animation: slideRightToLeft 200s infinite linear;
   font-family:DS-Digital Normal ;
   z-index: 888;
+  
  
 }
 
@@ -151,7 +152,7 @@
   position: fixed;
   bottom: 100px; /* Adjust the distance from the bottom as needed */
   right: 50px; /* Adjust the distance from the right as needed */
-  z-index: 450; /* Ensure the icon appears above other elements */
+  z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveUp 5s linear infinite; 
 }
 
@@ -171,7 +172,7 @@
   position: fixed;
   bottom: 200px; /* Adjust the distance from the bottom as needed */
   left: 50px; /* Adjust the distance from the right as needed */
-  z-index: 450; /* Ensure the icon appears above other elements */
+  z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveDownOne 4s linear infinite; 
 }
 
@@ -181,7 +182,7 @@
   position: fixed;
   top: 5px; /* Adjust the distance from the bottom as needed */
   right: 100px; /* Adjust the distance from the right as needed */
-  z-index: 450; /* Ensure the icon appears above other elements */
+  z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveDown 12s linear infinite; 
 }
 
@@ -191,7 +192,7 @@
   position: fixed;
   top: 350px; /* Adjust the distance from the bottom as needed */
   left: 20px; /* Adjust the distance from the right as needed */
-  z-index: 450; /* Ensure the icon appears above other elements */
+  z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveUp 8s linear infinite; 
 }
 
@@ -252,6 +253,7 @@
     will-change: transform; /* Hint to the browser that the element will change */
     -webkit-transform: translate3d(0, 0, 0);
     font-family:  monospace;
+    -webkit-font-smoothing: antialised;
     
   }
 }
