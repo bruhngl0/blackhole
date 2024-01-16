@@ -145,7 +145,7 @@
   bottom: 100px; /* Adjust the distance from the bottom as needed */
   right: 50px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveUp 5s linear infinite;
+  /*animation: moveUp 5s linear infinite; */
 }
 
 .ball2 {
@@ -155,7 +155,7 @@
   top: 170px; /* Adjust the distance from the bottom as needed */
   right: 75px; /* Adjust the distance from the right as needed */
   z-index: 459; /* Ensure the icon appears above other elements */
-  animation: moveDownOne 7s linear infinite;
+ /* animation: moveDownOne 7s linear infinite; */
 }
 
 .ball3 {
@@ -165,7 +165,7 @@
   bottom: 200px; /* Adjust the distance from the bottom as needed */
   left: 50px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveDownOne 4s linear infinite;
+  /*animation: moveDownOne 4s linear infinite; */
 }
 
 .ball4 {
@@ -175,7 +175,7 @@
   top: 5px; /* Adjust the distance from the bottom as needed */
   right: 100px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveDown 12s linear infinite;
+ /* animation: moveDown 12s linear infinite; */
 }
 
 .ball5 {
@@ -185,7 +185,7 @@
   top: 350px; /* Adjust the distance from the bottom as needed */
   left: 20px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
-  animation: moveUp 8s linear infinite;
+ /* animation: moveUp 8s linear infinite; */
 }
 
 @keyframes moveUp {
