@@ -1,27 +1,17 @@
-@font-face {
-  font-family: 'graffiti';
-  src: url('../public/Linebeam.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-  
-}
+
 
 
 @font-face {
-  font-family: 'dd';
-  src: url('../public/dd.TTF') format('truetype');
+  font-family: 'ds';
+  src: url('../public/DS-DIGI.TTF') format('truetype'),
+       url('../public/DS-DIGIB.TTF') format('truetype'),
+       url('../public/DS-DIGII.TTF') format('truetype'),
+       url('../public/DS-DIGIT.TTF') format('truetype');
   font-weight: 800;
   font-style: normal;
-  
 }
 
-@font-face {
-  font-family: 'co';
-  src: url('../public/co.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  
-}
+
 
 
 
@@ -38,7 +28,7 @@
   background-position: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: dd;
+  font-family: ds;
 
 
 }
@@ -143,7 +133,7 @@
   height: 80px;
   position: fixed;
   top: 170px; /* Adjust the distance from the bottom as needed */
-  left: 75px; /* Adjust the distance from the right as needed */
+  right: 75px; /* Adjust the distance from the right as needed */
   z-index: 459; /* Ensure the icon appears above other elements */
   animation: moveDownOne 7s linear infinite;
 }
@@ -173,7 +163,7 @@
   height: 40px;
   position: fixed;
   top: 350px; /* Adjust the distance from the bottom as needed */
-  right: 20px; /* Adjust the distance from the right as needed */
+  left: 20px; /* Adjust the distance from the right as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
   animation: moveUp 8s linear infinite;
 }
