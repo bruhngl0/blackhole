@@ -137,12 +137,18 @@
 
 
 .para-one-text{
-  animation: slideRightToLeft 200s infinite linear;
+  animation: slideRightToLeft 5s infinite linear;
+  will-change: transform; /* Optimize for smoother animation */
+  transform: translateZ(0); /* Force hardware acceleration in Safari */
+  backface-visibility: hidden; /* Further optimize for smoother animations */
+  perspective: 1000px; /* Improve 3D rendering performance in Safari */
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 
-  z-index: 888;
+}
   
  
-}
+
 
 
 
@@ -248,7 +254,7 @@
   .para-one-text{
     -webkit-transform: translateZ(0); /* Force software rendering */
     -webkit-backface-visibility: hidden; /* Prevent flickering during animations */
-    -webkit-perspective: 1000; /* Improve 3D rendering performance */
+   /* Improve 3D rendering performance */
     -webkit-transform-style: preserve-3d; /* Preserve 3D transformations */
     will-change: transform; /* Hint to the browser that the element will change */
     -webkit-transform: translate3d(0, 0, 0);
