@@ -69,11 +69,10 @@
   align-items: center;
   justify-content: center;
   font-size: 4.5rem;
- 
   color: #FCECD0;
+  overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
-  text-decoration: none;
 }
 
 .link{
