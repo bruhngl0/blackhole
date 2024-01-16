@@ -6,8 +6,14 @@ const Hero = () => {
     <>
     <div className='hero'>
      <div className='hero-one'>
-       <img src="./products/j1.png" />
-       <img src="./products/j2.png" />
+     <div className="image-container">
+       <img src="./products/j1.png" alt="Product J1" />
+       <p className="hover-text">Olive & Beige Blocked Puffer</p>
+     </div>
+     <div className="image-container">
+       <img src="./products/j2.png" alt="Product J2" />
+       <p className="hover-text">Graphite & Slate Blocked Puffer</p>
+      </div>
      </div>
      
      <div className='hero-two'>

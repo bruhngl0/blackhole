@@ -264,3 +264,30 @@
   }
 }
 
+.hero-one .image-container {
+  position: relative;
+}
+
+.hero-one img {
+  width: 100%; /* Adjust as needed */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.hero-one .hover-text {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact centering */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition for text opacity */
+  color: white; /* Adjust text color as needed */
+  text-align: center;
+}
+
+.hero-one .image-container:hover img {
+  opacity: 0.5; /* Adjust transparency as needed */
+}
+
+.hero-one .image-container:hover .hover-text {
+  opacity: 1; /* Show text on hover */
+}
