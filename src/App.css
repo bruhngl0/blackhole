@@ -137,11 +137,11 @@
 
 
 .para-one-text{
-  animation: slideRightToLeft 5s infinite linear;
+  animation: slideRightToLeft 100s infinite linear;
   will-change: transform; /* Optimize for smoother animation */
   transform: translateZ(0); /* Force hardware acceleration in Safari */
   backface-visibility: hidden; /* Further optimize for smoother animations */
-  perspective: 1000px; /* Improve 3D rendering performance in Safari */
+  /* Improve 3D rendering performance in Safari */
   text-rendering: optimizeLegibility;
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 
