@@ -30,30 +30,60 @@ const Hero = () => {
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
        <img src="./products/Puff3.png" />
+       <p className="hover-text">Cloud Quilted Bomber</p>
+       </div>
+       <div className="image-container">
        <img src="./products/VEST3.png" />
+       <p className="hover-text">Midnight Pocket Gilet</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/VEST4.png" />
+      <p className="hover-text">Safari Pocket Gilet</p>
+      </div>
+      <div className="image-container">
        <img src="./products/VEST1.png" />
+       <p className="hover-text">Ivory Pocket Gilet</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/VEST2.png" />
+      <p className="hover-text">Commando Pocket Gilet</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Puffer6.png" />
+       <p className="hover-text">Blush Frost Puffer</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Puffer3.png" />
+      <p className="hover-text">Twilight Insulated Puffer</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Puffer2.png" />
+       <p className="hover-text">Olive Hush Puffer</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Puffer5.png" />
+      <p className="hover-text">Midnight Poise Puffer</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Puffer1.png" />
+       <p className="hover-text">Frost Whisper Puffer</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
