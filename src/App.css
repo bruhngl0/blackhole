@@ -2,9 +2,9 @@
 
 
 @font-face {
-  font-family: 'ds-digitalnormal';
+  font-family: 'ds';
   src: 
-       url('../public/fontsfree-net-ds-digi-1-webfont.woff') format('woff');
+       url('../public/DS-DIGI.TTF') format('truetype');
 
 
 }
@@ -26,7 +26,7 @@
   background-position: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: ds-digitalnormal 
+  font-family: ds 
  
 
 }
