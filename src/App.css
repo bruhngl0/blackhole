@@ -5,8 +5,7 @@
   font-family: 'ds-digitalnormal';
   src: 
        url('../public/fontsfree-net-ds-digi-1-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+
 
 }
 
@@ -27,7 +26,7 @@
   background-position: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: ds-digitalnormal system-ui, -apple-system, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: ds-digitalnormal 
  
 
 }
