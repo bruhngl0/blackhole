@@ -24,8 +24,9 @@
   background-position: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family:'Times New Roman', Times, serif;
-
+  font-family: ds;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
