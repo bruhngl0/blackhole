@@ -49,6 +49,112 @@ const Hero = () => {
        <img src="./products/Mesh_hoodie_b.png" />
       </div>
     </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/black1.png" />
+       <img src="./products/black1_1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/White_hoodie.png" />
+       <img src="./products/Black_hoodie.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Hoodie_Purple.png" />
+       <img src="./products/Sweater2.png" />
+      </div>
+    </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/Sweater1.png" />
+       <img src="./products/TShirtLong-creme.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/TShirtLong-grey.png" />
+       <img src="./products/Jacket1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Jacket3.png" />
+       <img src="./products/Jacket2.png" />
+      </div>
+    </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/sh3.png" />
+       <img src="./products/sh1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/sh2.png" />
+       <img src="./products/m1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/m2.png" />
+       <img src="./products/Mesh_Shirt1.png" />
+      </div>
+    </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/Mesh_Shirt2.png" />
+       <img src="./products/MO3.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/MO1.png" />
+       <img src="./products/MO2.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/pa11.png" />
+       <img src="./products/Jeans2.png" />
+      </div>
+
+    </div>   
+    
+    
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/py2.png" />
+       <img src="./products/py1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Fur3.png" />
+       <img src="./products/Fur2.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Fur1.png" />
+       <img src="./products/y1.png" />
+      </div>
+    </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/y2.png" />
+       <img src="./products/pantss1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/pantss3.png" />
+       <img src="./products/pantss2.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Pantsss2.png" />
+       <img src="./products/Pantsss3.png" />
+      </div>
+    </div>
+
+
     </>
   )
 }
