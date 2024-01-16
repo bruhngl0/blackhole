@@ -32,6 +32,12 @@
   src: local('DS-Digital Bold Italic'), url('../public/DS-DIGIT.woff') format('woff');
   }
 
+  @font-face {
+    font-family: 'new';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../public/co.otf') format('opentype');
+    }
 
 
 
@@ -48,7 +54,7 @@
   background-position: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: DS-Digital Normal; 
+  font-family: new; 
  
 
 }
@@ -244,5 +250,6 @@
     -webkit-transform-style: preserve-3d; /* Preserve 3D transformations */
     will-change: transform; /* Hint to the browser that the element will change */
     -webkit-transform: translate3d(0, 0, 0);
+    
   }
 }
