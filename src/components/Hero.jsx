@@ -154,6 +154,50 @@ const Hero = () => {
       </div>
     </div>
 
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/Pantsss1.png" />
+       <img src="./products/Pants3.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Pants2.png" />
+       <img src="./products/Pants1.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Pj2.png" />
+       <img src="./products/Pj1.png" />
+      </div>
+    </div>
+
+    <div className='page-one'>
+      <div className='page-one-one'>
+      <img src="./products/Pj3.png" />
+       <img src="./products/Pjwhite.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/Pjblue.png" />
+       <img src="./products/PjBlack.png" />
+      </div>
+
+      <div className='page-one-one'>
+      <img src="./products/f2.png" />
+       <img src="./products/f1.png" />
+      </div>
+    </div>
+
+    <div className='page-last'>
+      <div className='page-last-one'>
+       <img src="./products/Puffer2.png" />
+      </div>
+
+      <div className='page-last-one'>
+      <img src="./products/png1.png" />
+      </div>
+    </div>
+
 
     </>
   )

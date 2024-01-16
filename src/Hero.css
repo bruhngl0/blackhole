@@ -75,3 +75,34 @@
         margin: 20px;
     }
 }
+
+
+.page-last{
+    background-image: url('../public/BG.png');
+    width: auto;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: dd;
+}
+
+.page-last-one{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    >img{
+        width: 250px;
+        height: 260px;
+        margin: 20px;
+    }
+}
