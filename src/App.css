@@ -242,7 +242,7 @@
   }
 }
 /* Safari-specific styles */
-@supports (-webkit-appearance:none) {
+@supports  (-webkit-appearance:none) and (not (selector: :-webkit-full-screen)) {
   .para-one-text{
     -webkit-transform: translateZ(0); /* Force software rendering */
     -webkit-backface-visibility: hidden; /* Prevent flickering during animations */
