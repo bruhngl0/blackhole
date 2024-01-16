@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'ds';
-  src:   url('../public/newone.ttf') format('woff2');
+  src:   url('../public/newone.woff2') format('woff2');
    
   font-weight: 1 1000;    
 }
