@@ -1,6 +1,9 @@
 import React from 'react'
 import '../Hero.css'
 
+
+
+
 const Hero = () => {
   return (
     <>
@@ -87,76 +90,158 @@ const Hero = () => {
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Mesh_hoodie.png" />
+      <p className="hover-text">Desert Mesh Poncho</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Mesh_hoodie_b.png" />
+       <p className="hover-text">Eclipse Mesh Poncho</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/black1.png" />
+      <p className="hover-text">Sands of Time Knit Sweater</p>
+      </div>
+      <div className="image-container">
        <img src="./products/black1_1.png" />
+       <p className="hover-text">Midnight Poise Knit Sweater</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/White_hoodie.png" />
+      <p className="hover-text">Custord Corduroy Hoodie</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Black_hoodie.png" />
+       <p className="hover-text">Midnight Corduroy Hoodie</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Hoodie_Purple.png" />
+      <p className="hover-text">Plum Haze Corduroy Hoodie</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Sweater2.png" />
+       <p className="hover-text">Olive Drab Distressed Frayed Sweater</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Sweater1.png" />
+      <p className="hover-text">Noir Distressed Frayed Sweater</p>
+      </div>
+      <div className="image-container">
        <img src="./products/TShirtLong-creme.png" />
+       <p className="hover-text">Ivory Stripe Rugby Polo</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/TShirtLong-grey.png" />
+      <p className="hover-text">Slate Stripe Rugby Polo</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Jacket1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Jacket3.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">   
        <img src="./products/Jacket2.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/sh3.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+
+      <div className="image-container">
+      <div className="image-container">
        <img src="./products/sh1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/sh2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/m1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/m2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+
+      <div className="image-container">
        <img src="./products/Mesh_Shirt1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container"> 
       <img src="./products/Mesh_Shirt2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/MO3.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/MO1.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/MO2.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container"> 
       <img src="./products/pa11.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Jeans2.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
     </div>   
@@ -164,69 +249,141 @@ const Hero = () => {
     
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/py2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/py1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Fur3.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Fur2.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Fur1.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/y1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/y2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/pantss1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/pantss3.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/pantss2.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pantsss2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Pantsss3.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pantsss1.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Pants3.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pants2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Pants1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pj2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Pj1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pj3.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/Pjwhite.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/Pjblue.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/PjBlack.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
 
       <div className='page-one-one'>
+      <div className="image-container">
       <img src="./products/f2.png" />
+      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      </div>
+      <div className="image-container">
        <img src="./products/f1.png" />
+       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </div>
       </div>
     </div>
 
