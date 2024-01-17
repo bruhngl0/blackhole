@@ -135,6 +135,15 @@
   }
 }
 
+@-webkit-keyframes slideRightToLeft {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 
 .para-one-text{
   animation: slideRightToLeft 100s infinite linear;
