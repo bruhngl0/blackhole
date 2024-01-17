@@ -146,7 +146,7 @@
 
 
 .para-one-text{
-  animation: slideRightToLeft 70s infinite linear;
+  animation: slideRightToLeft 50s infinite linear;
   will-change: transform; /* Optimize for smoother animation */
   transform: translateZ(0); /* Force hardware acceleration in Safari */
   backface-visibility: hidden; /* Further optimize for smoother animations */
