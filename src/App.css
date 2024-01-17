@@ -40,7 +40,10 @@
     }
 
 
-
+.cassete{
+  width: 100px;
+  margin-left: 18rem;
+}
 
 .middle{
   background-image: url(../public/bh_bg.png);

@@ -1,13 +1,49 @@
 import React from 'react'
 import '../Hero.css'
-
-
+import './Audio.jsx'
+import  { useState, useEffect, useRef } from 'react';
 
 
 const Hero = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize audioRef with the audio file when the component mounts
+    audioRef.current = new Audio("music.mp3");
+
+    // Cleanup function to pause the audio when the component unmounts
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    };
+  }, []);
+
+  const toggle = () => {
+    if (!audioRef.current) return; // Guard clause in case audioRef.current is not initialized
+
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  }
+
   return (
     <>
+    
     <div className='hero'>
+    < div >
+    <img 
+     src="rednew.png" 
+     alt={isPlaying ? 'Pause' : 'Play'} 
+     onClick={toggle} 
+     style={{ cursor: 'pointer' }} // Optional: Makes it look clickable
+     className='cassete'
+    />
+    </div >  
      <div className='hero-one'>
      <div className="image-container">
        <img src="./products/j1.png" alt="Product J1" />
