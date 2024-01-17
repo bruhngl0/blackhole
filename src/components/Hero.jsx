@@ -162,11 +162,11 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Jacket3.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Street Ghost Chain Shirt</p>
       </div>
       <div className="image-container">   
        <img src="./products/Jacket2.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Commando Olive Chain Shirt</p>
        </div>
       </div>
     </div>
@@ -175,13 +175,13 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/sh3.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Emerald Green Textured Shirt</p>
       </div>
 
       <div className="image-container">
       <div className="image-container">
        <img src="./products/sh1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Ivory Textured Shirt</p>
        </div>
        </div>
       </div>
@@ -189,23 +189,23 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/sh2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Midnight Textured Shirt</p>
       </div>
       <div className="image-container">
        <img src="./products/m1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Mauve Suede Shacket</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/m2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Charcoal Suede Shackett</p>
       </div>
 
       <div className="image-container">
        <img src="./products/Mesh_Shirt1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Matrix Check Shirt</p>
        </div>
       </div>
     </div>
@@ -214,33 +214,33 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container"> 
       <img src="./products/Mesh_Shirt2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Monochrome Check Shirt</p>
       </div>
       <div className="image-container">
        <img src="./products/MO3.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Forest Green Suede Pocket Shirt</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/MO1.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Plum Haze Suede Pocket Shirt</p>
       </div>
       <div className="image-container">
        <img src="./products/MO2.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Charcoal Grey Suede Pocket Shirt</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container"> 
       <img src="./products/pa11.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Panoramic Porthole Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/Jeans2.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Eclipse Ripped Jeans</p>
        </div>
       </div>
 
@@ -251,33 +251,33 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/py2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Slate Shadow Cargo Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/py1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Sand Dune Cargo Pants</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Fur3.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Desert Explorer Suede Utility Pants </p>
       </div>
       <div className="image-container">
        <img src="./products/Fur2.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Charcoal Mine Suede Utility Pants</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Fur1.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Lavender Feild Suede Utility Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/y1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Mustard Seed Cargo Pants</p>
        </div>
       </div>
     </div>
@@ -286,33 +286,33 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/y2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Midnight Black Cargo Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/pantss1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Tael Blue Layered Pocket Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/pantss3.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Crisp White Layered Pocket Trousers</p>
       </div>
       <div className="image-container">
        <img src="./products/pantss2.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Pitch Dark Layered Pocket Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pantsss2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Forest Ranger Cargo Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/Pantsss3.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Ivory Expidition Cargo Pants</p>
        </div>
       </div>
     </div>
@@ -321,33 +321,33 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pantsss1.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Midnight Expidition Cargo Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/Pants3.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Coffee Brown Utility Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pants2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Ghost White Utility Trousers</p>
       </div>
       <div className="image-container">
        <img src="./products/Pants1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Midnight Black Utility Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pj2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Mustard Casual Button Trousers</p>
       </div>
       <div className="image-container">
        <img src="./products/Pj1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Black Casual Button Trousers</p>
        </div>
       </div>
     </div>
@@ -356,33 +356,33 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pj3.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Nocturnal 10 Pocket Parade</p>
       </div>
       <div className="image-container">
        <img src="./products/Pjwhite.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Slate Explorer Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Pjblue.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Aegean Tidal Trouseres</p>
       </div>
       <div className="image-container">
        <img src="./products/PjBlack.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Metropolitan Trousers</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/f2.png" />
-      <p className="hover-text">Pitch Dark Chain Shirt</p>
+      <p className="hover-text">Jet Black Pinaccle Cargo Pants</p>
       </div>
       <div className="image-container">
        <img src="./products/f1.png" />
-       <p className="hover-text">Pitch Dark Chain Shirt</p>
+       <p className="hover-text">Charcoal Grey Pinaccle Cargo Pants</p>
        </div>
       </div>
     </div>
