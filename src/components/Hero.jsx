@@ -35,7 +35,7 @@ const Hero = () => {
     <>
     
     <div className='hero'>
-    < div >
+   {/* < div >
     <img 
      src="rednew.png" 
      alt={isPlaying ? 'Pause' : 'Play'} 
@@ -43,12 +43,12 @@ const Hero = () => {
      style={{ cursor: 'pointer' }} // Optional: Makes it look clickable
      className='cassete'
     />
-    </div >  
+  </div >  */}
      <div className='hero-one'>
      <div className="image-container">
        <img src="./products/j1.png" alt="Product J1" />
        <p className="hover-text">Olive & Beige Blocked Puffer</p>
-     </div>
+  </div> 
      <div className="image-container">
        <img src="./products/j2.png" alt="Product J2" />
        <p className="hover-text">Graphite & Slate Blocked Puffer</p>
@@ -215,11 +215,11 @@ const Hero = () => {
       </div>
 
       <div className="image-container">
-      <div className="image-container">
+     
        <img src="./products/sh1.png" />
        <p className="hover-text">Ivory Textured Shirt</p>
        </div>
-       </div>
+     
       </div>
 
       <div className='page-one-one'>
