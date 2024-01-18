@@ -195,7 +195,7 @@ const Hero = () => {
       </div>
       <div className="image-container">
        <img src="./products/Sweater2.png" />
-       <p className="hover-text">Olive Drab Distressed Frayed Sweater</p>
+       <p className="hover-text">Noir Distressed Frayed Sweater</p>
        </div>
       </div>
     </div>
@@ -204,7 +204,7 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/Sweater1.png" />
-      <p className="hover-text">Noir Distressed Frayed Sweater</p>
+      <p className="hover-text">Olive Drab Distressed Frayed Sweater</p>
       </div>
       <div className="image-container">
        <img src="./products/TShirtLong-creme.png" />
@@ -457,26 +457,121 @@ const Hero = () => {
     <div className='cara-one' >
     <Slider arrows = {true}>
       <div>
-      <img src="./products/Puff2.png" alt="Product 1"  className='sli-one'/>
-      </div>
-      <div>
-      <img src="./products/Puff3.png" alt="Product 2"  className='sli-one'/>
-      </div>
-      <div>
-      <img src="./products/j1.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/j1.png" alt="Product 1"  className='sli-one'/>
       </div>
       <div>
       <img src="./products/j2.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/MO2.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/Puff2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puff1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puff3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/VEST3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/VEST4.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/VEST1.png" alt="Product 1"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/VEST2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puffer6.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puffer3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puffer2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puffer5.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puffer1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+     
+      <div>
+      <img src="./products/Mesh_hoodie.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Mesh_hoodie_b.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/black1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/black1_1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/White_hoodie.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Black_hoodie.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Hoodie_Purple.png" alt="Product 1"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Sweater2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Sweater1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/TShirtLong-creme.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/TShirtLong-grey.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Jacket1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Jacket3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Jacket2.png" alt="Product 1"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/sh3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/sh1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/sh2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/m1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/m2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Mesh_Shirt1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Mesh_Shirt2.png" alt="Product 1"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/MO3.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
       <img src="./products/MO1.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/m2.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/MO2.png" alt="Product 2"  className='sli-one'/>
       </div>
+      
    </Slider>
    </div>
 
@@ -484,16 +579,58 @@ const Hero = () => {
    <div className='cara-two'>
     <Slider arrows= {true}>
       <div className='cara-two-div'>
-      <img src="./products/y2.png" alt="Product 1"  className='sli-two'/>
+      <img src="./products/pa11.png" alt="Product 1"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Jeans2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/py2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/py1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Fur1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Fur2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Fur3.png" alt="Product 2"  className='sli-two'/>
       </div>
       <div>
       <img src="./products/y1.png" alt="Product 2"  className='sli-two'/>
       </div>
       <div>
-      <img src="./products/f1.png" alt="Product 2"  className='sli-two'/>
+      <img src="./products/y2.png" alt="Product 2"  className='sli-two'/>
       </div>
       <div>
-      <img src="./products/f2.png" alt="Product 2"  className='sli-two'/>
+      <img src="./products/pantss1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/pantss2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/pantss3.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pantsss2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pantsss3.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pantsss1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pants1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pants2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pants3.png" alt="Product 2"  className='sli-two'/>
       </div>
       <div>
       <img src="./products/Pj1.png" alt="Product 2"  className='sli-two'/>
@@ -502,7 +639,25 @@ const Hero = () => {
       <img src="./products/Pj2.png" alt="Product 2"  className='sli-two'/>
       </div>
       <div>
+      <img src="./products/Pj3.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pjwhite.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
       <img src="./products/Pjblue.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/PjBlack.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pj1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/f2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/f1.png" alt="Product 2"  className='sli-two'/>
       </div>
 
    </Slider>
