@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../Hero.css';
 import './Audio.jsx';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -29,7 +32,19 @@ const Hero = () => {
     audioRef.current.pause();
     setIsPlaying(false);
   }
+  
 
+  const settings = {
+    
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: "linear"
+
+  };
 
 
 
@@ -436,15 +451,67 @@ const Hero = () => {
       </div>
     </div>
 
-    <div className='page-last'>
-      <div className='page-last-one'>
-       <img src="./products/Puffer2.png" />
+    
+
+
+    <div className='cara-one' >
+    <Slider arrows = {true}>
+      <div>
+      <img src="./products/Puff2.png" alt="Product 1"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/Puff3.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/j1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/j2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/MO2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/MO1.png" alt="Product 2"  className='sli-one'/>
+      </div>
+      <div>
+      <img src="./products/m2.png" alt="Product 2"  className='sli-one'/>
+      </div>
+   </Slider>
+   </div>
+
+
+   <div className='cara-two'>
+    <Slider arrows= {true}>
+      <div className='cara-two-div'>
+      <img src="./products/y2.png" alt="Product 1"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/y1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/f1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/f2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pj1.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pj2.png" alt="Product 2"  className='sli-two'/>
+      </div>
+      <div>
+      <img src="./products/Pjblue.png" alt="Product 2"  className='sli-two'/>
       </div>
 
-      <div className='page-last-one'>
-      <img src="./products/png1.png" />
-      </div>
-    </div>
+   </Slider>
+   </div>
+
+
+
+ 
+
 
 
     </>

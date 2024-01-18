@@ -198,3 +198,90 @@
   .page-one .image-container:hover .hover-text {
     opacity: 1; /* Show text on hover */
   }
+
+
+  .page-last {
+    background-image: url('../public/BG.png');
+    width: 100%; /* Use 100% to ensure it takes the full width */
+    min-height: 715px; /* Use min-height to ensure content doesn't overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    font-family: dd;
+}
+
+.page-last-one {
+    width: 100%; /* Use 100% to ensure it takes the full width */
+    min-height: 200px; /* Use min-height to ensure content doesn't overflow */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Carousel specific styles */
+
+
+
+
+.cara-one{
+  width:100%;
+  height: 250px;
+  background-image: url('../public/BG.png');
+  overflow: hidden;
+
+  
+  
+}
+
+.cara-two{
+  width:100%;
+  height: 300px;
+  background-image: url('../public/BG.png');
+
+  overflow: hidden;
+}
+
+
+.slick-slide{
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide .sli-one{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; /* Centers the image in the slide */
+  display: block;
+  margin-top: 60px;
+
+}
+
+.slick-slide .sli-two{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; /* Centers the image in the slide */
+  display: block;
+  padding: 0;
+
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+  /* Other styles: positioning, size, etc. */
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 20px; /* Adjust arrow size */
+  color: red; /* Adjust arrow color */
+  /* Other styles */
+}
+
+
