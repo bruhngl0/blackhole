@@ -424,7 +424,7 @@ const Hero = () => {
       </div>
       <div className="image-container">
        <img src="./products/Pjwhite.png" />
-       <p className="hover-text">Slate Explorer Trousers</p>
+       <p className="hover-text">Metropolitan Trousers</p>
        </div>
       </div>
 
@@ -435,7 +435,7 @@ const Hero = () => {
       </div>
       <div className="image-container">
        <img src="./products/PjBlack.png" />
-       <p className="hover-text">Metropolitan Trousers</p>
+       <p className="hover-text">Slate Explorer Trousers</p>
        </div>
       </div>
 
