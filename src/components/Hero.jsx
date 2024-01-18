@@ -1,8 +1,6 @@
-import React from 'react'
-import '../Hero.css'
-import './Audio.jsx'
-import  { useState, useEffect, useRef } from 'react';
-
+import React, { useState, useEffect, useRef } from 'react';
+import '../Hero.css';
+import './Audio.jsx';
 
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -10,7 +8,7 @@ const Hero = () => {
 
   useEffect(() => {
     // Initialize audioRef with the audio file when the component mounts
-    audioRef.current = new Audio("music.mp3");
+    audioRef.current = new Audio("luv.mp3");
 
     // Cleanup function to pause the audio when the component unmounts
     return () => {
@@ -20,30 +18,45 @@ const Hero = () => {
     };
   }, []);
 
-  const toggle = () => {
+  const play = () => {
     if (!audioRef.current) return; // Guard clause in case audioRef.current is not initialized
-
-    if (isPlaying) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
+    audioRef.current.play();
+    setIsPlaying(true);
   }
+
+  const pause = () => {
+    if (!audioRef.current) return; // Guard clause in case audioRef.current is not initialized
+    audioRef.current.pause();
+    setIsPlaying(false);
+  }
+
+
+
 
   return (
     <>
     
     <div className='hero'>
-   {/* < div >
-    <img 
-     src="rednew.png" 
-     alt={isPlaying ? 'Pause' : 'Play'} 
-     onClick={toggle} 
-     style={{ cursor: 'pointer' }} // Optional: Makes it look clickable
-     className='cassete'
-    />
-  </div >  */}
+    < div >
+    
+    {isPlaying ? (
+      <img
+        src="pauseB.png"
+        alt="Pause"
+        onClick={pause}
+        style={{ cursor: 'pointer' }}
+        className='casseteOne'
+      />
+    ) : (
+      <img
+        src="playlife.png"
+        alt="Play"
+        onClick={play}
+        style={{ cursor: 'pointer' }}
+        className='cassete'
+      />
+    )}
+  </div >  
      <div className='hero-one'>
      <div className="image-container">
        <img src="./products/j1.png" alt="Product J1" />
@@ -141,11 +154,11 @@ const Hero = () => {
       <div className='page-one-one'>
       <div className="image-container">
       <img src="./products/black1.png" />
-      <p className="hover-text">Sands of Time Knit Sweater</p>
+      <p className="hover-text">Midnight Poise Knit Sweater</p>
       </div>
       <div className="image-container">
        <img src="./products/black1_1.png" />
-       <p className="hover-text">Midnight Poise Knit Sweater</p>
+       <p className="hover-text">Sands of Time Knit Sweater</p>
        </div>
       </div>
 

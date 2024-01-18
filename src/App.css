@@ -41,8 +41,27 @@
 
 
 .cassete{
-  width: 100px;
-  margin-left: 18rem;
+  width: 20px;
+  
+  margin-top: 5.5rem;
+  margin-left: 4px;
+
+  
+  z-index: 999;
+
+
+}
+
+.casseteOne{
+  width: 20px;
+  
+  margin-top: 5.5rem;
+  margin-left: 4px;
+
+  
+  z-index: 999;
+
+
 }
 
 .middle{

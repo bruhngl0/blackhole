@@ -1,20 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-function Audio() {
-  let audio = new Audio("music.mp3")
-
-  const start = () => {
-    audio.play()
-  }
-
+const Audio = () => {
   return (
-    < div >
-      <button onClick={start}>Play</button>
-    </div >
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-export default Audio;
+export default Audio
+
 ;
 
 
