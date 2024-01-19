@@ -102,25 +102,25 @@ const Hero = () => {
        <p className="hover-text">Cloud Quilted Bomber</p>
        </div>
        <div className="image-container">
-       <img src="./products/VEST3.png" />
+       <img src="./products/VEST3c.png" />
        <p className="hover-text">Midnight Pocket Gilet</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
-      <img src="./products/VEST4.png" />
+      <img src="./products/VEST4c.png" />
       <p className="hover-text">Safari Pocket Gilet</p>
       </div>
       <div className="image-container">
-       <img src="./products/VEST1.png" />
+       <img src="./products/VEST1c.png" />
        <p className="hover-text">Ivory Pocket Gilet</p>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
-      <img src="./products/VEST2.png" />
+      <img src="./products/VEST2c.png" />
       <p className="hover-text">Commando Pocket Gilet</p>
       </div>
       <div className="image-container">
@@ -472,16 +472,16 @@ const Hero = () => {
       <img src="./products/Puff3.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/VEST3.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/VEST3c.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/VEST4.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/VEST4c.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/VEST1.png" alt="Product 1"  className='sli-one'/>
+      <img src="./products/VEST1c.png" alt="Product 1"  className='sli-one'/>
       </div>
       <div>
-      <img src="./products/VEST2.png" alt="Product 2"  className='sli-one'/>
+      <img src="./products/VEST2c.png" alt="Product 2"  className='sli-one'/>
       </div>
       <div>
       <img src="./products/Puffer6.png" alt="Product 2"  className='sli-one'/>
