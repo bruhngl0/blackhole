@@ -74,9 +74,11 @@ const Hero = () => {
   </div >  
      <div className='hero-one'>
      <div className="image-container">
-       <img src="./products/j1.png" alt="Product J1" />
+     <a href="https://17950e-2.myshopify.com/products/new-outdoor-waterproof-portable-lighter-immortal-fire-starter-match-stick-camping-lighter-waterproof-metal-outdoor-survival-tool">
+    <img src="./products/j1.png" alt="Product J1" />
        <p className="hover-text">Olive & Beige Blocked Puffer</p>
-  </div> 
+       </a>
+    </div> 
      <div className="image-container">
        <img src="./products/j2.png" alt="Product J2" />
        <p className="hover-text">Graphite & Slate Blocked Puffer</p>
