@@ -1,7 +1,7 @@
 .hero{
   background-image: url("../public/BG1.png");
   width: auto;
-  height: 930px;
+  height: 715px;
   display: flex;
   flex-direction: column;
   justify-content: center;
