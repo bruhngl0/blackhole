@@ -314,7 +314,7 @@
 @media screen and (max-width: 500px) {
 
 .hero{
-  background-image: url("../public/BG1.png");
+  background-image: url("../public/oops.png");
   width: auto;
   height: 715px;
   display: flex;
