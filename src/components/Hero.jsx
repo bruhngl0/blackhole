@@ -52,8 +52,8 @@ const Hero = () => {
     <>
     
     <div className='hero'>
-    < div >
-    
+ 
+ <div className='hero-main-one'>
     {isPlaying ? (
       <img
         src="pauseB.png"
@@ -71,7 +71,8 @@ const Hero = () => {
         className='cassete'
       />
     )}
-  </div >  
+   </div>
+   <div className='hero-main-two'>
      <div className='hero-one'>
      <div className="image-container">
      <a href="https://17950e-2.myshopify.com/products/puffer">
@@ -95,7 +96,8 @@ const Hero = () => {
        <p className="hover-text">Desert Quilted Bomber</p>
        </div>
      </div>
-    </div>
+     </div>
+     </div>
 
     <div className='page-one'>
       <div className='page-one-one'>

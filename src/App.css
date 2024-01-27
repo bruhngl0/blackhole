@@ -40,37 +40,15 @@
     }
 
 
-    @media screen and (max-width: 1540px) {
+  
 
-      .cassete{
-        width: 20px;
-        
-        margin-top: 5.5rem;
-        margin-left: 4px;
-      
-        
-        z-index: 999;
-      
-      
-      }
-      
-      .casseteOne{
-        width: 20px;
-        
-        margin-top: 5.5rem;
-        margin-left: 4px;
-      
-        
-        z-index: 999;
-      
-      
-      }
+   
 
 
     .middle{
-      background-image: url(../public/bg_bhPc.jpg);
+      background-image: url(../public/BIGSCREEN.png);
       width: auto;
-      height: 750px;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -300,7 +278,7 @@
     }
 
 
-  }
+
 
 
 
