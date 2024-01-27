@@ -49,18 +49,23 @@
   }
   
   .page-one{
-    background-image: url('../public/BGreverse.png');
-    width: auto;
- 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    font-family: dd;
+    background-image: 
+    linear-gradient(
+      rgba(128, 128, 128, 0.5),  /* Medium grey color with 50% opacity */
+      rgba(128, 128, 128, 0.5)   /* Medium grey color with 50% opacity */
+    ),
+    url('../public/BGreverse.png'); /* Your original background image */
+  width: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: dd;
   }
   
   .page-one-one{
@@ -314,7 +319,11 @@
 @media screen and (max-width: 500px) {
 
 .hero{
-  background-image: url("../public/oops.png");
+  background-image:
+  linear-gradient(
+    rgba(84, 77, 77, 0.35),  /* Medium grey color with 50% opacity */
+    rgba(84, 77, 77, 0.35)   /* Medium grey color with 50% opacity */
+  ), url("../public/oops.png");
   width: auto;
   height: 715px;
   display: flex;
@@ -359,7 +368,11 @@
 }
 
 .page-one{
-  background-image: url('../public/BG(1).png');
+  background-image:
+  linear-gradient(
+    rgba(84, 77, 77, 0.35),  /* Medium grey color with 50% opacity */
+    rgba(84, 77, 77, 0.35)   /* Medium grey color with 50% opacity */
+  ), url('../public/BG(1).png');
   width: auto;
   height: 715px;
   display: flex;
