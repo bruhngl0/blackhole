@@ -75,7 +75,7 @@ const Hero = () => {
    <div className='hero-main-two'>
      <div className='hero-one'>
      <div className="image-container">
-     <a href="https://17950e-2.myshopify.com/products/puffer">
+     <a href="https://611e4e.myshopify.com/products/olive-and-beige-blocked-puffer">
     <img src="./products/j1.png" alt="Product J1" />
        <p className="hover-text">Olive & Beige Blocked Puffer</p>
        </a>
