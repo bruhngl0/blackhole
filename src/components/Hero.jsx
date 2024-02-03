@@ -81,20 +81,25 @@ const Hero = () => {
        </a>
     </div> 
      <div className="image-container">
-      
+      <a href = "https://shop.unnssry.xyz/products/graphite-slate-blocked-puffer" >
        <img src="./products/j2.png" alt="Product J2" />
        <p className="hover-text">Graphite & Slate Blocked Puffer</p>
+       </a>
       </div>
      </div>
      
      <div className='hero-two'>
      <div className="image-container">
+      <a href = "https://shop.unnssry.xyz/products/midnight-quilted-bomber" >
        <img src="./products/Puff2.png" />
        <p className="hover-text">Midnight Quilted Bomber</p>
+       </a>
        </div>
        <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/desert-quilted-bomber" >
        <img src="./products/Puff1.png" />
        <p className="hover-text">Desert Quilted Bomber</p>
+       </a>
        </div>
      </div>
      </div>
@@ -103,30 +108,40 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/cloud-quilted-bomber" >
        <img src="./products/Puff3.png" />
        <p className="hover-text">Cloud Quilted Bomber</p>
+       </a>
        </div>
        <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-pocket-gillet" >
        <img src="./products/VEST3c.png" />
        <p className="hover-text">Midnight Pocket Gilet</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/safari-pocket-gilet" >
       <img src="./products/VEST4c.png" />
       <p className="hover-text">Safari Pocket Gilet</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/ivory-pocket-gilet">
        <img src="./products/VEST1c.png" />
        <p className="hover-text">Ivory Pocket Gilet</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/commando-pocket-gilet" >
       <img src="./products/VEST2c.png" />
       <p className="hover-text">Commando Pocket Gilet</p>
+      </a>
       </div>
       <div className="image-container">
       <a href = "https://shop.unnssry.xyz/products/blush-frost-puffer">
@@ -140,34 +155,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/twilight-insulated-puffer" >
       <img src="./products/Puffer3.png"  alt= "puffer"/>
       <p className="hover-text">Twilight Insulated Puffer</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/olive-hush-puffer" >
        <img src="./products/Puffer2.png" />
        <p className="hover-text">Olive Hush Puffer</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-poise-puffer" >
       <img src="./products/Puffer5.png" />
       <p className="hover-text">Midnight Poise Puffer</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/frost-whisper-puffer" >
        <img src="./products/Puffer1.png" />
        <p className="hover-text">Frost Whisper Puffer</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/desert-mesh-poncho" >
       <img src="./products/Mesh_hoodie.png" />
       <p className="hover-text">Desert Mesh Poncho</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/eclipse-mesh-poncho">
        <img src="./products/Mesh_hoodie_b.png" />
        <p className="hover-text">Eclipse Mesh Poncho</p>
+       </a>
        </div>
       </div>
     </div>
@@ -175,34 +202,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-poise-knit-sweater">
       <img src="./products/black1.png" />
       <p className="hover-text">Midnight Poise Knit Sweater</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/sands-of-time-knit-sweater">
        <img src="./products/black1_1.png" />
        <p className="hover-text">Sands of Time Knit Sweater</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/custord-corduroy-hoodie" >
       <img src="./products/White_hoodie.png" />
       <p className="hover-text">Custord Corduroy Hoodie</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-corduroy-hoodie" >
        <img src="./products/Black_hoodie.png" />
        <p className="hover-text">Midnight Corduroy Hoodie</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/plum-haze-corduroy-hoodie">
       <img src="./products/Hoodie_Purple.png" />
       <p className="hover-text">Plum Haze Corduroy Hoodie</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/noir-distressed-frayed-sweater" >
        <img src="./products/Sweater2.png" />
        <p className="hover-text">Noir Distressed Frayed Sweater</p>
+       </a>
        </div>
       </div>
     </div>
@@ -210,34 +249,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/olive-drab-distressed-frayed-sweater">
       <img src="./products/Sweater1.png" />
       <p className="hover-text">Olive Drab Distressed Frayed Sweater</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/ivory-stripe-rugby-polo">
        <img src="./products/TShirtLong-creme.png" />
        <p className="hover-text">Ivory Stripe Rugby Polo</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/slate-stripe-rugby-polo" >
       <img src="./products/TShirtLong-grey.png" />
       <p className="hover-text">Slate Stripe Rugby Polo</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/pitch-dark-chain-shirt">
        <img src="./products/Jacket1.png" />
        <p className="hover-text">Pitch Dark Chain Shirt</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/street-ghost-chain-shirt">
       <img src="./products/Jacket3.png" />
       <p className="hover-text">Street Ghost Chain Shirt</p>
+      </a>
       </div>
-      <div className="image-container">   
+      <div className="image-container"> 
+      <a href = "https://shop.unnssry.xyz/products/commando-olive-chain-shirt" >  
        <img src="./products/Jacket2.png" />
        <p className="hover-text">Commando Olive Chain Shirt</p>
+       </a>
        </div>
       </div>
     </div>
@@ -245,38 +296,49 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/emerald-green-textured-shirt" >
       <img src="./products/sh3.png" />
       <p className="hover-text">Emerald Green Textured Shirt</p>
+      </a>
       </div>
 
       <div className="image-container">
-     
+       <a href = "https://shop.unnssry.xyz/products/ivory-textured-shirt">
        <img src="./products/sh1.png" />
        <p className="hover-text">Ivory Textured Shirt</p>
+       </a>
        </div>
      
       </div>
 
       <div className='page-one-one'>
-      <div className="image-container">
+      <div className="image-container"> 
+        <a href = "https://shop.unnssry.xyz/products/midnight-textured-shirt" >
       <img src="./products/sh2.png" />
       <p className="hover-text">Midnight Textured Shirt</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/mauve-suede-shacket">
        <img src="./products/m1.png" />
        <p className="hover-text">Mauve Suede Shacket</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/charcoal-suede-shackett" >
       <img src="./products/m2.png" />
       <p className="hover-text">Charcoal Suede Shackett</p>
+      </a>
       </div>
 
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/matrix-check-shirt" >
        <img src="./products/Mesh_Shirt1.png" />
        <p className="hover-text">Matrix Check Shirt</p>
+       </a>
        </div>
       </div>
     </div>
@@ -284,23 +346,31 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container"> 
+      <a href = "https://shop.unnssry.xyz/products/monochrome-check-shirt">
       <img src="./products/Mesh_Shirt2.png" />
       <p className="hover-text">Monochrome Check Shirt</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/forest-green-suede-pocket-shirt" >
        <img src="./products/MO3.png" />
        <p className="hover-text">Forest Green Suede Pocket Shirt</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/plum-haze-suede-pocket-shirt" >
       <img src="./products/MO1.png" />
       <p className="hover-text">Plum Haze Suede Pocket Shirt</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/charcoal-grey-suede-pocket-shirt" >
        <img src="./products/MO2.png" />
        <p className="hover-text">Charcoal Grey Suede Pocket Shirt</p>
+       </a>
        </div>
       </div>
 
