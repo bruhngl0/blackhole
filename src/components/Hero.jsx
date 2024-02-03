@@ -81,6 +81,7 @@ const Hero = () => {
        </a>
     </div> 
      <div className="image-container">
+      
        <img src="./products/j2.png" alt="Product J2" />
        <p className="hover-text">Graphite & Slate Blocked Puffer</p>
       </div>
@@ -128,8 +129,10 @@ const Hero = () => {
       <p className="hover-text">Commando Pocket Gilet</p>
       </div>
       <div className="image-container">
+      <a href = "https://shop.unnssry.xyz/products/blush-frost-puffer">
        <img src="./products/Puffer6.png" />
        <p className="hover-text">Blush Frost Puffer</p>
+       </a>
        </div>
       </div>
     </div>
@@ -137,7 +140,7 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
-      <img src="./products/Puffer3.png" />
+      <img src="./products/Puffer3.png"  alt= "puffer"/>
       <p className="hover-text">Twilight Insulated Puffer</p>
       </div>
       <div className="image-container">
@@ -303,12 +306,16 @@ const Hero = () => {
 
       <div className='page-one-one'>
       <div className="image-container"> 
+      <a href = "https://shop.unnssry.xyz/products/panoramic-porthole-pants" >
       <img src="./products/pa11.png" />
       <p className="hover-text">Panoramic Porthole Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/eclipse-ripped-jeans" >
        <img src="./products/Jeans2.png" />
        <p className="hover-text">Eclipse Ripped Jeans</p>
+       </a>
        </div>
       </div>
 
@@ -318,34 +325,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/slate-shadow-cargo-pants" >
       <img src="./products/py2.png" />
       <p className="hover-text">Slate Shadow Cargo Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/sand-dune-cargo-pants" >
        <img src="./products/py1.png" />
        <p className="hover-text">Sand Dune Cargo Pants</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/desert-explorer-suede-utility-pants">
       <img src="./products/Fur3.png" />
       <p className="hover-text">Desert Explorer Suede Utility Pants </p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/charcoal-mine-suede-utility-pants" >
        <img src="./products/Fur2.png" />
        <p className="hover-text">Charcoal Mine Suede Utility Pants</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/lavender-field-suede-utility-pants">
       <img src="./products/Fur1.png" />
       <p className="hover-text">Lavender Feild Suede Utility Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/mustard-seed-cargo-pants" >
        <img src="./products/y1.png" />
        <p className="hover-text">Mustard Seed Cargo Pants</p>
+       </a>
        </div>
       </div>
     </div>
@@ -353,34 +372,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-black-cargo-pants" >
       <img src="./products/y2.png" />
       <p className="hover-text">Midnight Black Cargo Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/tael-blue-layered-pocket-trousers" >
        <img src="./products/pantss1.png" />
        <p className="hover-text">Tael Blue Layered Pocket Trousers</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/crisp-white-layered-pocket-trousers">
       <img src="./products/pantss3.png" />
       <p className="hover-text">Crisp White Layered Pocket Trousers</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href= "https://shop.unnssry.xyz/products/pitch-dark-layered-pocket-trousers">
        <img src="./products/pantss2.png" />
        <p className="hover-text">Pitch Dark Layered Pocket Trousers</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/forest-ranger-cargo-pants" >
       <img src="./products/Pantsss2.png" />
       <p className="hover-text">Forest Ranger Cargo Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/ivory-expedition-cargo-pants" >
        <img src="./products/Pantsss3.png" />
        <p className="hover-text">Ivory Expidition Cargo Pants</p>
+       </a>
        </div>
       </div>
     </div>
@@ -388,23 +419,31 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-expedition-cargo-pants" >
       <img src="./products/Pantsss1.png" />
       <p className="hover-text">Midnight Expidition Cargo Pants</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/coffee-brown-utility-trousers" >
        <img src="./products/Pants3.png" />
        <p className="hover-text">Coffee Brown Utility Trousers</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/ghost-white-utility-trousers">
       <img src="./products/Pants2.png" />
       <p className="hover-text">Ghost White Utility Trousers</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/midnight-black-utility-trousers" >
        <img src="./products/Pants1.png" />
        <p className="hover-text">Midnight Black Utility Trousers</p>
+       </a>
        </div>
       </div>
 
@@ -414,8 +453,10 @@ const Hero = () => {
       <p className="hover-text">Mustard Casual Button Trousers</p>
       </div>
       <div className="image-container">
+      <a href = "https://shop.unnssry.xyz/products/black-casual-button-trousers">
        <img src="./products/Pj1.png" />
        <p className="hover-text">Black Casual Button Trousers</p>
+       </a>
        </div>
       </div>
     </div>
@@ -423,34 +464,46 @@ const Hero = () => {
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/nocturnal-10-pocket-parade">
       <img src="./products/Pj3.png" />
       <p className="hover-text">Nocturnal 10 Pocket Parade</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/metropolitan-trousers" >
        <img src="./products/Pjwhite.png" />
        <p className="hover-text">Metropolitan Trousers</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/aegean-tidal-trousers">
       <img src="./products/Pjblue.png" />
       <p className="hover-text">Aegean Tidal Trouseres</p>
+      </a>
       </div>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/slate-explorer-trousers" >
        <img src="./products/PjBlack.png" />
        <p className="hover-text">Slate Explorer Trousers</p>
+       </a>
        </div>
       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href= "https://shop.unnssry.xyz/products/jet-black-pinnacle-cargo-pants-1" >
       <img src="./products/f2.png" />
       <p className="hover-text">Jet Black Pinaccle Cargo Pants</p>
+      </a>
       </div>
       <div className="image-container">
+      <a href= "https://shop.unnssry.xyz/products/jet-black-pinnacle-cargo-pants" >
        <img src="./products/f1.png" />
        <p className="hover-text">Charcoal Grey Pinaccle Cargo Pants</p>
+       </a>
        </div>
       </div>
     </div>
