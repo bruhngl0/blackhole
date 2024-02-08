@@ -705,7 +705,7 @@
 
 .hero{
   background-image:
- url("../public/BG23.png");
+ url("../public/BG234.png");
   width: auto;
   height: 815px;
   display: flex;
@@ -1034,9 +1034,9 @@ color: red; /* Adjust arrow color */
 @media screen and (max-width: 500px) {
 
   .cassete{
-    width: 20px;
+    width: 30px;
     
-    margin-top: 5.5rem;
+    margin-top: 12.5rem;
     margin-left: 4px;
   
     
@@ -1046,9 +1046,9 @@ color: red; /* Adjust arrow color */
   }
   
   .casseteOne{
-    width: 20px;
+    width: 30px;
     
-    margin-top: 5.5rem;
+    margin-top: 12.5rem;
     margin-left: 4px;
   
     
@@ -1059,7 +1059,7 @@ color: red; /* Adjust arrow color */
 
 .hero{
   background-image:
- url("../public/BG23.png");
+ url("../public/BG234.png");
   width: auto;
   height: 815px;
   display: flex;

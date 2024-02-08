@@ -483,6 +483,9 @@
   animation: moveUp 8s linear infinite; 
 }
 
+
+
+
 @keyframes moveUp {
   0% {
     transform: translateY(0);

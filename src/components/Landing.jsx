@@ -30,6 +30,7 @@ const Landing = () => {
        <img src= "ball3.png"  className='ball3'/>
        <img src= "ball1.png"  className='ball4'/>
        <img src= "ball2.png"  className='ball5'/>
+     
        
     </div>
     </>
