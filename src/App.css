@@ -472,7 +472,7 @@
   position: fixed;
   top: 5px; /* Adjust the distance from the bottom as needed */
   right: 100px; /* Adjust the distance from the right as needed */
-  z-index: 999; /* Ensure the icon appears above other elements */
+  z-index: 999; /* Ensure the icon appears above other elements kot*/
   animation: moveDown 12s linear infinite; 
 }
 
