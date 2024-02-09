@@ -519,8 +519,10 @@ const Hero = () => {
 
       <div className='page-one-one'>
       <div className="image-container">
+        <a href = "https://shop.unnssry.xyz/products/mustard-casual-button-trousers" >
       <img src="./products/Pj2.png" />
       <p className="hover-text">Mustard Casual Button Trousers</p>
+      </a>
       </div>
       <div className="image-container">
       <a href = "https://shop.unnssry.xyz/products/black-casual-button-trousers">
