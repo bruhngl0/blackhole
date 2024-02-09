@@ -42,7 +42,21 @@ const Hero = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    cssEase: "linear"
+    cssEase: "linear",
+ 
+
+  };
+
+  const settingsOne = {
+    
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
+ 
 
   };
 
@@ -584,7 +598,7 @@ const Hero = () => {
 
 
     <div className='cara-one' >
-    <Slider arrows = {true}>
+    <Slider  {...settings}>
       <div>
       <img src="./products/j1.png" alt="Product 1"  className='sli-one'/>
       </div>
@@ -706,7 +720,7 @@ const Hero = () => {
 
 
    <div className='cara-two'>
-    <Slider arrows= {true}>
+    <Slider {...settingsOne}>
       <div className='cara-two-div'>
       <img src="./products/pa11.png" alt="Product 1"  className='sli-two'/>
       </div>
@@ -803,3 +817,8 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+// CustomPrevArrow component
+
+// CustomNextArrow component

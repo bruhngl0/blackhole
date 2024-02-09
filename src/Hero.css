@@ -321,16 +321,7 @@
   
   }
   
-  .slick-prev, .slick-next {
-  z-index: 1;
-  /* Other styles: positioning, size, etc. */
-  }
-  
-  .slick-prev:before, .slick-next:before {
-  font-size: 20px; /* Adjust arrow size */
-  color: red; /* Adjust arrow color */
-  /* Other styles */
-  }
+
   
 
 
@@ -677,346 +668,7 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
 
-  .cassete{
-    width: 20px;
-    
-    margin-top: 5.5rem;
-    margin-left: 4px;
-  
-    
-    z-index: 999;
-  
-  
-  }
-  
-  .casseteOne{
-    width: 20px;
-    
-    margin-top: 5.5rem;
-    margin-left: 4px;
-  
-    
-    z-index: 999;
-  
-  
-  }
-
-.hero{
-  background-image:
- url("../public/BG234.png");
-  width: auto;
-  height: 815px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  font-family: dd;
-  
-
-}
-
-.hero-main-one{
-
-  display: flex;
-  width: full;
-}
-
-.hero-main-two{
-
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-one{
-  width: auto;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8rem;
-  padding: 0;
-}
-
-.image-container{
- margin: 20px;
- width: 160px;
- height: 160px;
-}
-
-.hero-two{
-  width: auto;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-  padding: 0;
-  
-}
-
-.page-one{
-  background-image:
-  linear-gradient(
-    rgba(84, 77, 77, 0.35),  /* Medium grey color with 50% opacity */
-    rgba(84, 77, 77, 0.35)   /* Medium grey color with 50% opacity */
-  ), url('../public/BG(1).png');
-  width: auto;
-  height: 715px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  font-family: dd;
-}
-
-.page-one-one{
-  width: auto;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  >img{
-      width: 160px;
-      height: 160px;
-      margin: 20px;
-  }
-}
-
-
-.page-last{
-  background-image: url('../public/BG.png');
-  width: auto;
-  height: 715px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  font-family: dd;
-}
-
-.page-last-one{
-  width: auto;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  >img{
-      width: 250px;
-      height: 260px;
-      margin: 20px;
-  }
-}
-
-
-.hero-one .image-container {
-  position: relative;
-}
-
-.hero-one img {
-  width: 160px; /* Adjust as needed */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
-}
-
-.hero-one .hover-text {
-  position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for exact centering */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for text opacity */
-  color: white; /* Adjust text color as needed */
-  text-align: center;
-  width: 100px;
-}
-
-.hero-one .image-container:hover img {
-  opacity: 0.5; /* Adjust transparency as needed */
-  transform: scale(1.3)
-}
-
-.hero-one .image-container:hover .hover-text {
-  opacity: 1; /* Show text on hover */
-}
-
-
-
-
-
-.hero-two .image-container {
-  position: relative;
-}
-
-.hero-two img {
-  width: 160px; /* Adjust as needed */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
-}
-
-.hero-two .hover-text {
-  position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for exact centering */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for text opacity */
-  color: white; /* Adjust text color as needed */
-  text-align: center;
-  width: 120px;
-}
-
-.hero-two .image-container:hover img {
-  opacity: 0.5; /* Adjust transparency as needed */
-  transform: scale(1.3)
-}
-
-.hero-two .image-container:hover .hover-text {
-  opacity: 1; /* Show text on hover */
-}
-
-
-
-.page-one .image-container {
-  position: relative;
-}
-
-.page-one img {
-  width: 160px; /* Adjust as needed */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
-}
-
-.page-one .hover-text {
-  position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for exact centering */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for text opacity */
-  color: white; /* Adjust text color as needed */
-  text-align: center;
-  width: 100px;
-}
-
-.page-one .image-container:hover img {
-  opacity: 0.5; /* Adjust transparency as needed */
-  transform: scale(1.3)
-}
-
-.page-one .image-container:hover .hover-text {
-  opacity: 1; /* Show text on hover */
-}
-
-
-.page-last {
-  background-image: url('../public/BG.png');
-  width: 100%; /* Use 100% to ensure it takes the full width */
-  min-height: 715px; /* Use min-height to ensure content doesn't overflow */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  font-family: dd;
-}
-
-.page-last-one {
-  width: 100%; /* Use 100% to ensure it takes the full width */
-  min-height: 200px; /* Use min-height to ensure content doesn't overflow */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-/* Carousel specific styles */
-
-
-
-
-.cara-one{
-width:100%;
-height: 400px;
-background-image: 
-
-url('../public//life3.png'); /* Your background image */
-overflow: hidden;
-background-size: auto;
-background-position: auto;
-
-
-}
-
-.cara-two{
-width:100%;
-height: 400px;
-background-image: 
-
-url('../public/lifeone.png'); /* Your background image */
-background-size: auto;
-background-position: auto;
-
-overflow: hidden;
-}
-
-
-.slick-slide{
-width: 450px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.slick-slide .sli-one{
-width: 275px;
-height: 275px;
-margin: 0 auto; /* Centers the image in the slide */
-display: block;
-margin-top: 110px;
-
-}
-
-.slick-slide .sli-two{
-width: 350px;
-height: 350px;
-margin: 0 auto; /* Centers the image in the slide */
-display: block;
-padding: 0;
-
-}
-
-.slick-prev, .slick-next {
-z-index: 1;
-/* Other styles: positioning, size, etc. */
-}
-
-.slick-prev:before, .slick-next:before {
-font-size: 20px; /* Adjust arrow size */
-color: red; /* Adjust arrow color */
-/* Other styles */
-}
-
-}
   
 
 
@@ -1360,15 +1012,23 @@ padding: 0;
 
 }
 
-.slick-prev, .slick-next {
-z-index: 1;
-/* Other styles: positioning, size, etc. */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  /* Other styles: positioning, size, etc. */
+  color: rgb(242, 236, 236); /* Adjust arrow color */
+  font-size: 20px; /* Adjust arrow size */
 }
 
-.slick-prev:before, .slick-next:before {
-font-size: 20px; /* Adjust arrow size */
-color: red; /* Adjust arrow color */
-/* Other styles */
+/* Styles for arrow icons */
+.slick-prev:before,
+.slick-next:before {
+  content: "\2190"; /* Unicode for left arrow */
+  /* Other styles */
+}
+
+.slick-next:before {
+  content: "\2192"; /* Unicode for right arrow */
 }
 
 }
