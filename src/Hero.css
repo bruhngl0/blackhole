@@ -1035,8 +1035,24 @@ padding: 0;
 }
 
 
-.slick-prev:before,
-.slick-next:before {
-  color: rgb(241, 10, 25) !important;
+.cara-one .slick-prev:before
+ {
+  color: #FC1517!important;
 }
+
+.cara-one .slick-next:before
+ {
+  color: #FC1517!important;
+}
+
+
+.cara-two .slick-prev:before {
+  color: #FCECD0!important;
+}
+
+.cara-two .slick-next:before {
+  color: #FC1517!important;
+}
+
+
 }
