@@ -323,7 +323,7 @@
   
   .slick-prev{
     left: 10rem !important;
-   
+    
    
   }
   
@@ -1024,9 +1024,9 @@ padding: 0;
 }
 
 .slick-prev{
-  left: 2rem !important;
- 
- 
+  left: 2rem !important; /* Adjust arrow position */
+
+
 }
 
 .slick-next{
@@ -1034,4 +1034,9 @@ padding: 0;
  
 }
 
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(241, 10, 25) !important;
+}
 }
