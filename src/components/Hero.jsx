@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [autoplay, setAutoplay] = useState(true);
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -43,7 +44,12 @@ const Hero = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
- 
+    prevArrow: <CustomPrevArrow />, // Custom previous arrow component
+    nextArrow: <CustomNextArrow />, // Custom next arrow component
+    beforeChange: () => {
+      // Stop autoplay when a slide is clicked
+      setAutoplay(false);
+    }
 
   };
 
@@ -54,9 +60,10 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
- 
+  
+    
 
   };
 
@@ -598,7 +605,7 @@ const Hero = () => {
 
 
     <div className='cara-one' >
-    <Slider  {...settings}>
+    <Slider arrows = {true}>
       <div>
       <img src="./products/j1.png" alt="Product 1"  className='sli-one'/>
       </div>
@@ -720,7 +727,7 @@ const Hero = () => {
 
 
    <div className='cara-two'>
-    <Slider {...settingsOne}>
+    <Slider>
       <div className='cara-two-div'>
       <img src="./products/pa11.png" alt="Product 1"  className='sli-two'/>
       </div>
@@ -822,3 +829,30 @@ export default Hero
 // CustomPrevArrow component
 
 // CustomNextArrow component
+// CustomPrevArrow component
+const CustomPrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    >
+      Previous
+    </div>
+  );
+};
+
+// CustomNextArrow component
+const CustomNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "blue" }}
+      onClick={onClick}
+    >
+      Next
+    </div>
+  );
+};
