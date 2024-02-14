@@ -8,7 +8,7 @@ const Landing = () => {
     <>
     <div className='middle'>
        <div className='para-one'>
-         <p className='para-one-text'>. LOOK-BOOK . 2024 WF COLLECTION</p>
+         <p className='para-one-text'>. LOOK-BOOK . 2024 COLLECTION</p>
        </div>
 
        <div className='logo'>
@@ -19,9 +19,14 @@ const Landing = () => {
 
        <Link to= "/products"  className='para-two' >
        <div className='para-two'>
-        
-          <p className='para-one-text'>. WEB-SHOP . 2024 WF COLLECTION</p>
-             
+          <div className='box'>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p className='para-one-text'>. WEB-SHOP . 2024 COLLECTION</p>
+          
+                   
        </div>
        </Link> 
 
