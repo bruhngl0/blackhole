@@ -13,10 +13,12 @@ const Landing = () => {
          <p className='para-one-text'>. LOOK-BOOK . 2024 COLLECTION</p>
        </div>
        </a>
+       <Link to= "/products"  className='link' >
        <div className='logo'>
          <img src="blackhole.png"  className='logo-img'/>
          <DigitalWatch />
        </div>
+     </Link>
 
 
        <Link to= "/products"  className='para-two' >
