@@ -10,7 +10,9 @@ const Landing = () => {
     <div className='middle'>
      
        <div className='para-one'>
+       <a href="https://lookbook-un.vercel.app/" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
          <p className='para-one-text'>. LOOK-BOOK . 2024 COLLECTION</p>
+         </a>
        </div>
       
        <div className='logo'>
