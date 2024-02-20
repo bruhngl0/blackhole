@@ -8,11 +8,10 @@ const Landing = () => {
     <>
     
     <div className='middle'>
-      <a href = "https://lookbook-un.vercel.app/" className='link'>
+     
        <div className='para-one'>
          <p className='para-one-text'>. LOOK-BOOK . 2024 COLLECTION</p>
        </div>
-       </a>
       
        <div className='logo'>
          <img src="blackhole.png"  className='logo-img'/>
