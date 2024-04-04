@@ -184,54 +184,61 @@ const Hero = () => {
       </div>
     </div>
 
+
+
+
+    
+
     <div className='page-one'>
       <div className='page-one-one'>
       <div className="image-container">
-        <a href = "https://shop.unnssry.xyz/products/olive-drab-distressed-frayed-sweater">
+        <a href = "https://shop.unnssry.xyz/products/olive-drab-distressed-frayed-sweater" >
       <img src="./products/Sweater1.png" />
-      <p className="hover-text">Olive Drab Distressed Frayed Sweater</p>
+      <p className="hover-text">olive drab distressed frayed sweater</p>
       </a>
       </div>
+       
       <div className="image-container">
-        <a href = "https://shop.unnssry.xyz/products/forest-green-suede-pocket-shirt" >
+       <a href = "https://shop.unnssry.xyz/products/forest-green-suede-pocket-shirt">
        <img src="./products/MO3.png" />
-       <p className="hover-text">Forest Green Suede Pocket Shirt</p>
+       <p className="hover-text">forest green suede pocket shirt</p>
        </a>
        </div>
+     
       </div>
 
       <div className='page-one-one'>
-      <div className="image-container">
+      <div className="image-container"> 
         <a href = "https://shop.unnssry.xyz/products/plum-haze-suede-pocket-shirt" >
       <img src="./products/MO1.png" />
-      <p className="hover-text">Plum Haze Suede Pocket Shirt</p>
+      <p className="hover-text">Mauve Suede pocket shirt</p>
       </a>
       </div>
       <div className="image-container">
-        <a href = "https://shop.unnssry.xyz/products/charcoal-grey-suede-pocket-shirt" >
+      <a href = "https://shop.unnssry.xyz/products/charcoal-grey-suede-pocket-shirt" >
        <img src="./products/MO2.png" />
        <p className="hover-text">Charcoal Grey Suede Pocket Shirt</p>
        </a>
        </div>
       </div>
-      <div className="image-container">
-        <a href = "https://shop.unnssry.xyz/products/ivory-stripe-rugby-polo">
-       <img src="./products/TShirtLong-creme.png" />
-       <p className="hover-text">Ivory Stripe Rugby Polo</p>
-       </a>
-       </div>
 
       <div className='page-one-one'>
       <div className="image-container">
-        <a href = "https://shop.unnssry.xyz/products/slate-stripe-rugby-polo" >
-      <img src="./products/TShirtLong-grey.png" />
-      <p className="hover-text">Slate Stripe Rugby Polo</p>
+      <a href = "https://shop.unnssry.xyz/products/ivory-stripe-rugby-polo">
+       <img src="./products/TShirtLong-creme.png" />
+      <p className="hover-text">Ivory Stripe Rugby Polo</p>
       </a>
       </div>
-     
-      </div>
 
-    </div>   
+      <div className="image-container">
+      <a href = "https://shop.unnssry.xyz/products/slate-stripe-rugby-polo" >
+      <img src="./products/TShirtLong-grey.png" />
+       <p className="hover-text">Slate Stripe rugby polo</p>
+       </a>
+       </div>
+      </div>
+    </div>
+
     
     
     <div className='page-one'>
